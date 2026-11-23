@@ -3,6 +3,7 @@ from pydantic import ValidationError
 
 from app.core.config import Settings, get_settings
 
+
 def test_settings_load_successfully(monkeypatch):
     monkeypatch.setenv("SECRET_KEY", "test-secret-key")
     monkeypatch.setenv("DATABASE_URL", "postgresql://test:test@localhost:5432/test")
