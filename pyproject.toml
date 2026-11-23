@@ -9,7 +9,8 @@ description = "Backend de un marketplace"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.110.0",
-    "uvicorn[standard]>=0.28.0"
+    "uvicorn[standard]>=0.28.0",
+    "pydantic-settings>=2.2.0"
 ]
 
 [project.optional-dependencies]
