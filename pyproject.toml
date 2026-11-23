@@ -7,10 +7,17 @@ name = "markethub-api"
 version = "0.1.0"
 description = "Backend de un marketplace"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.28.0"
+]
 
 [project.optional-dependencies]
-dev = ["ruff", "pytest"]
+dev = [
+    "ruff",
+    "pytest",
+    "httpx>=0.27.0"
+]
 
 [tool.setuptools.packages.find]
 include = ["app*"]
