@@ -4,6 +4,7 @@ Backend de un marketplace: usuarios, catálogo, carrito, órdenes con control de
 
 ![Estado](https://img.shields.io/badge/estado-en%20desarrollo-orange)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-green)
+![CI](https://github.com/valensantarone/markethub-api/actions/workflows/ci.yml/badge.svg)
 
 > 🚧 **Proyecto en desarrollo.** Lo estoy construyendo por versiones, planificado con GitHub Projects, issues y pull requests. Podés seguir el avance en la pestaña [Projects](../../projects) y [Issues](../../issues).
 
