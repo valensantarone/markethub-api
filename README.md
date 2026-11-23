@@ -51,7 +51,20 @@ docs/       arquitectura, modelo de datos y decisiones técnicas (ADRs)
 
 ## Cómo correrlo
 
-Próximamente (v0.1).
+Requisitos: tener instalados **Docker** y **Docker Compose**.
+1. Clonar el repositorio y copiar el archivo de variables de entorno:
+   ```bash
+   cp .env.example .env
+   ```
+2. Levantar la base de datos y la API:
+   ```bash
+   docker compose up --build
+   ```
+3. Verificar que la API esté respondiendo:
+   ```bash
+   curl http://localhost:8000/health
+   ```
+   O abrir la documentación interactiva en el navegador: [http://localhost:8000/docs](http://localhost:8000/docs).
 
 ## Cómo trabajo en este repo
 
